@@ -20,14 +20,14 @@ public class Pool {
             ds.setDriverClassName("com.ibm.as400.access.AS400JDBCDriver");
             
             //Ambiente Demo
-            ds.setUsername("COSIS001");
-            ds.setPassword("zxc14asd");
-            ds.setUrl("jdbc:as400://des.vnpidns.com");
+            ds.setUsername("");
+            ds.setPassword("");
+            ds.setUrl("");
             
             //Ambiente Real
-            /*ds.setUsername("bmx_bi");
-            ds.setPassword("BMX1BI");
-            ds.setUrl("jdbc:as400://ame.vnpidns.com");*/
+            /*ds.setUsername("");
+            ds.setPassword("");
+            ds.setUrl("");*/
             
             ds.setInitialSize(15);//Número de conexiones que se quiere que se abran en cuanto el Pool comienza a trabajar
             ds.setMaxIdle(5); //Número máximo de conexiones inactivas que queremos que haya 
